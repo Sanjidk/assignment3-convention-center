@@ -12,3 +12,8 @@
 .all-button:hover{
   color: white;
 }
+
+.all-border li{
+  border: none;
+  
+}
