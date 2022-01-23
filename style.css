@@ -4,7 +4,6 @@
   color: white;
   font-weight: 700;
   border-radius: 10px;
-  border:none;
   padding: 10px;
   width: 140px;
 }
@@ -16,4 +15,17 @@
 .all-border li{
   border: none;
   
+}
+
+.main-border div{
+  border-radius: 20px;
+}
+
+.main-border a{
+  text-decoration: none;
+  background-color: #000000;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 18px;
 }
