@@ -78,9 +78,24 @@
     <!-- Main Package Part 1 -->
     <section class="container mt-5">
       <h1 class="text-center fw-bold"> PACKAGE & RULES</h1>
+
+       <!-- using toast -->
+       <div class="d-flex justify-content-end">
+        <div class="toast align-items-center show bg-info text-white rounded-3" role="alert"    aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <div class="toast-body fw-bolder">
+            Thank You N. Bye Bye..
+           </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+        </div>
+        <!-- end toast  -->
+
+        
         <div class="row g-5 main-border d-flex align-items-center mt-2">
           <div class="col-lg-3 col-md-6 col-12">
-            <div class="p-3 shadow-lg">
+            <div class="p-3 shadow-lg ancor-tag">
               <h3>Package: $200</h3>
               <h4>Classic</h4>
               <p>Rule Details......</p>
@@ -103,13 +118,15 @@
                 </li>
               </ul>
               <br>
-              <div>
-                <a href="https://en.wikipedia.org/wiki/PUBG:_Battlegrounds">Register Here</a>
+              <div class="text-center">
+                <a target="_blank" href="https://www.youtube.com/">
+                  <button type="button" class="btn btn-danger rounded-pill fw-bold">More Details</button>
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
-            <div class="p-3 shadow-lg">
+            <div class="p-3 shadow-lg ancor-tag">
               <h3>Package: $100</h3>
               <h4>Random</h4>
               <p>Rule Details......</p>
@@ -132,13 +149,15 @@
                 </li>
               </ul>
               <br>
-              <div>
-                <a href="https://en.wikipedia.org/wiki/PUBG:_Battlegrounds">Register Here</a>
+              <div class="text-center">
+                <a target="_blank" href="https://www.youtube.com/">
+                  <button type="button" class="btn btn-danger rounded-pill fw-bold">More Details</button>
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12 mt-4">
-            <div class="p-3 shadow-lg bg-info text-white position-relative">
+            <div class="p-3 shadow-lg bg-primary text-white position-relative ancor-tag">
               <button type="button" class="btn btn-danger position-absolute top-0 end-0 translate-middle badge rounded-pill">
                 Cold
               </button>
@@ -146,31 +165,33 @@
               <h4>Custom Room</h4>
               <p>Rule Details......</p>
               <ul class="list-group all-border">
-                <li class="list-group-item bg-info text-white">
+                <li class="list-group-item bg-primary text-white">
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                   Must Payment by Bikash
                 </li>
-                <li class="list-group-item bg-info text-white">
+                <li class="list-group-item bg-primary text-white">
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                   Maintain Fixed Slot
                 </li>
-                <li class="list-group-item bg-info text-white">
+                <li class="list-group-item bg-primary text-white">
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                   Must be Good Behaviour
                 </li>
-                <li class="list-group-item bg-info text-white">
+                <li class="list-group-item bg-primary text-white">
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                   Stay Punctual
                 </li>
               </ul>
               <br>
-              <div>
-                <a href="https://en.wikipedia.org/wiki/PUBG:_Battlegrounds">Register Here</a>
+              <div class="text-center">
+                <a target="_blank" href="https://www.youtube.com/">
+                  <button type="button" class="btn btn-danger rounded-pill fw-bold">More Details</button>
+                </a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
-            <div class="p-3 shadow-lg">
+            <div class="p-3 shadow-lg ancor-tag">
               <h3>Package: $150</h3>
               <h4>Galary</h4>
               <p>Rule Details......</p>
@@ -193,8 +214,10 @@
                 </li>
               </ul>
               <br>
-              <div>
-                <a href="https://en.wikipedia.org/wiki/PUBG:_Battlegrounds">Register Here</a>
+              <div class="text-center">
+                <a target="_blank" href="https://www.youtube.com/">
+                  <button type="button" class="btn btn-danger rounded-pill fw-bold">More Details</button>
+                </a>
               </div>
             </div>
           </div>
@@ -202,9 +225,86 @@
     </section>
     <!--End Main Package Part 1-->
 
+
+    <!-- Mid Part Start  -->
+    <section class="container my-5">
+      <h2 class="fw-bold"> Register, Join, Participate </h2>
+      <div class="row">
+        <div class="col-lg-5 col-12 text-center">
+          <div class="shadow-lg bg-dark p-2">
+            <button type="button" class="btn btn-primary mb-2 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Registration For Competetive</button>
+            <div class="spinner-border text-warning" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary mb-2 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Join For Random</button>
+            <div class="spinner-border text-danger rounded-0" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary mb-2 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Practice Randomly</button>
+            <div class="spinner-grow text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary mb-2 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Direct Invited Slot</button>
+            <div class="spinner-border text-info" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Fillup Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Your Name:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Details:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Confirm</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+
+         <!-- using card  -->
+              <div class="card">
+                <div class="card-body d-lg-flex justify-content-lg-around">
+                  <div class="w-50">
+                    <img src="images/convention/pubg10.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="w-50 p-2">
+                    <h5 class="card-title">PUBG MOBILE</h5>
+                  <p class="card-text">PUBG received positive reviews from critics, who found that while the game had some technical flaws, it presented new types of gameplay that could be easily approached by players of any skill level and was highly replayable.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+     
+    </section>
+    <!-- End mid part -->
+
+    
+
     <!-- Start Accordion Part -->
     <section class="container my-5">
-      <h2 class="fw-bold">ASK ABOUT PUBG</h2>
+      <h2 class="fw-bold text-center">ASK ABOUT PUBG</h2>
       <div class="row g-5">
         <div class="col-lg-6 col-md-12 col-12">
           <div class="accordion" id="accordionExample">
