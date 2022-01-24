@@ -1,11 +1,14 @@
 .all-button{
   text-decoration: none;
-  background-color: #000000;
+  background-color: #095fff;
   color: white;
-  font-weight: 700;
-  border-radius: 10px;
+  font-weight: 500;
+  border-radius: 20px;
   padding: 10px;
-  width: 140px;
+}
+
+.sec-gapp{
+  margin-bottom: 100px;
 }
 
 .all-button:hover{
